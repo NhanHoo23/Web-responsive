@@ -1,0 +1,371 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="bootstrap-5.3.2-dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="style-Home.css">
+    <link rel="stylesheet" href="fontawesome-free-6.4.2-web/css/all.min.css">
+    <script src="bootstrap-5.3.2-dist/js/bootstrap.bundle.min.js"></script>
+</head>
+
+<body>
+    <div class="header">
+        <div class="banner">
+            <div id="carouselExampleInterval" class="carousel slide" data-bs-ride="carousel">
+                <div class="carousel-indicators">
+                    <button type="button" data-bs-target="#carouselExampleInterval" data-bs-slide-to="0" class="active"
+                        aria-current="true" aria-label="Slide 1"></button>
+                    <button type="button" data-bs-target="#carouselExampleInterval" data-bs-slide-to="1"
+                        aria-label="Slide 2"></button>
+                    <button type="button" data-bs-target="#carouselExampleInterval" data-bs-slide-to="2"
+                        aria-label="Slide 3"></button>
+                </div>
+                <div class="carousel-inner">
+                    <div class="carousel-item active" data-bs-interval="5000">
+                        <img src="Images/banner_1.jpeg" class="d-block w-100" alt="...">
+                    </div>
+                    <div class="carousel-item" data-bs-interval="5000">
+                        <img src="Images/banner_2.jpeg" class="d-block w-100" alt="...">
+                    </div>
+                    <div class="carousel-item" data-bs-interval="5000">
+                        <img src="Images/banner_3.jpeg" class="d-block w-100" alt="...">
+                    </div>
+                </div>
+                <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleInterval"
+                    data-bs-slide="prev">
+                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Previous</span>
+                </button>
+                <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleInterval"
+                    data-bs-slide="next">
+                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Next</span>
+                </button>
+            </div>
+        </div>
+        <div class="headerNavbarTop">
+            <div class="container-lg">
+                <div class="d-flex justify-content-between py-2">
+                    <div>
+                        <a href="#mail"><i class="fas fa-envelope"></i>info@nhantourist.net</a>
+                        <a href="#mail"><i class="fas fa-phone"></i>Hotline: 1900 1808</a>
+                    </div>
+                    <div>
+                        <a href="#mail"><i class="fas fa-location-dot"></i>Chọn điểm khởi hành</a>
+                        <a href="#mail"><i class="fas fa-right-to-bracket"></i>Đăng nhập</a>
+                        <a href="#mail"><i class="fas flag"></i>Việt Nam</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="navbarTop">
+            <nav class="navbar navbar-expand-md bg-transparent">
+                <div class="container-lg">
+                    <img class="navbar-brand navbarLogo" src="Images/logo.png" alt="">
+                    <button class="navbar-toggler navbarIcon" type="button" data-bs-toggle="collapse"
+                        data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false"
+                        aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+                    <div class="collapse navbar-collapse" id="navbarNavDropdown">
+                        <ul class="navbar-nav ms-auto">
+                            <li class="nav-item">
+                                <a class="nav-link" href="#">TRANG CHỦ</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="Ass-News.html">TIN TỨC</a>
+                            </li>
+                            <li class="nav-item dropdown" id="hover-dropdown">
+                                <a class="nav-link mb-2" href="#">
+                                    TOUR TRONG NƯỚC
+                                </a>
+                                <ul class="dropdown-menu dropdownMenu">
+                                    <li><a href="#">Miền Bắc</a></li>
+                                    <li><a href="#">Miền Trung</a></li>
+                                    <li><a href="#">Miền Nam</a></li>
+                                </ul>
+                            </li>
+                            <li class="nav-item dropdown" id="hover-dropdown">
+                                <a class="nav-link mb-2" href="#">
+                                    TOUR NƯỚC NGOÀI
+                                </a>
+                                <ul class="dropdown-menu dropdownMenu">
+                                    <li><a href="#">Châu Âu</a></li>
+                                    <li><a href="#">Châu Á</a></li>
+                                    <li><a href="#">Châu Mĩ</a></li>
+                                    <li><a href="#">Châu Úc</a></li>
+                                    <li><a href="#">Châu Phi</a></li>
+                                </ul>
+                            </li>
+                            <li class="nav-item dropdown" id="hover-dropdown">
+                                <a class="nav-link mb-2" href="#">
+                                    DỊCH VỤ DU LỊCH
+                                </a>
+                                <ul class="dropdown-menu dropdownMenu">
+                                    <li><a href="#">Thuê xe</a></li>
+                                    <li><a href="#">Vé máy bay</a></li>
+                                    <li><a href="#">Bảo hiểm du lịch</a></li>
+                                </ul>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="Ass-Contact.html">LIÊN HỆ</a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </nav>
+        </div>
+
+        <div class="search d-flex align-items-center py-2">
+            <div class="container d-flex" style="width: 100%; height: 100%;">
+                <input type="text" placeholder="Tìm kiếm...">
+                <button><i class="fa-solid fa-magnifying-glass"></i></button>
+            </div>
+        </div>
+    </div>
+
+    <div class="container-lg content mt-5">
+        <div class="d-flex flex-column align-items-center gap-3">
+            <div class="title">
+                <h2>DU LỊCH MÙA THU 2023</h2>
+            </div>
+
+            <div class="contentCard">
+                <div class="container-fluid">
+                    <div class="row">
+                        <div class="col-md-4 mb-3">
+                            <a href="">
+                                <div class="cardCustom">
+                                    <img src="Images/Noboribetsu Jigokudani -2_511120738.jpeg" alt="...">
+                                    <div class="cardBody p-3">
+                                        <p class="card-text cardBodyText">Du Lịch Nhật Bản [CHITOSE - NOBORIBETSU -
+                                            JOZANKEU
+                                            - OTARU - SAPPORO]</p>
+                                    </div>
+                                    <div class="buyButton mb-3">
+                                        <p>Mua tour</p>
+                                    </div>
+                                </div>
+                            </a>
+                        </div>
+                        <div class="col-md-4 mb-3">
+                            <a href="">
+                                <div class="cardCustom">
+                                    <img src="Images/Gyeongbokgung-in-Seoul_434133472.jpeg" alt="...">
+                                    <div class="cardBody p-3">
+                                        <p class="card-text cardBodyText">Du Lịch Hàn Quốc [SEOUL - JEJU - HERB DONGSAN
+                                            -
+                                            CHÙA YAKCHEONSA - NAMI - LÀNG Ý LOTTE WORLD - NANTA SHOW]</p>
+                                    </div>
+                                    <div class="buyButton mb-3">
+                                        <p>Mua tour</p>
+                                    </div>
+                                </div>
+                            </a>
+                        </div>
+                        <div class="col-md-4">
+                            <a href="">
+                                <div class="cardCustom">
+                                    <img src="Images/Fansipan_706797802.jpeg" alt="...">
+                                    <div class="cardBody p-3">
+                                        <p class="card-text cardBodyText">Du lịch Hà Nội - Ninh Bình - Hạ Long - Sapa -
+                                            Lào
+                                            Cai - Phú Thọ</p>
+                                    </div>
+                                    <div class="buyButton mb-3">
+                                        <p>Mua tour</p>
+                                    </div>
+                                </div>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="smallBanner mt-3 p-3">
+            <div class="row">
+                <div class="firstBanner col-md-8">
+                    <img src="Images/BANNER-tet2024.jpeg" alt="">
+                </div>
+                <div class="anotherBanner col-md-4">
+                    <div class="secondBanner">
+                        <img src="Images/Frame 26.png" alt="">
+                    </div>
+                    <div class="thirdBanner">
+                        <img src="Images/Frame 27.png" alt="">
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="d-flex flex-column align-items-center gap-3">
+            <div class="title">
+                <h2>ĐIỂM ĐẾN ĐANG HOT</h2>
+            </div>
+
+            <div class="contentCard2">
+                <div class="container-fluid">
+                    <div class="row">
+                        <div class="col-md-4 mb-3">
+                            <a href="">
+                                <div class="cardCustom">
+                                    <img src="Images/NewsImages/hoang-lien.png" alt="...">
+                                    <div class="category">
+                                        <h4>Việt Nam</h4>
+                                    </div>
+                                    <div class="cardBody p-3">
+                                        <h6>Bài viết mới</h6>
+                                        <p class="card-text cardBodyText">
+                                            Việt Nam lọt Top 20 Quốc Gia đẹp nhất hành tinh</p>
+                                    </div>
+
+                                </div>
+                            </a>
+                        </div>
+                        <div class="col-md-4 mb-3">
+                            <a href="">
+                                <div class="cardCustom">
+                                    <img src="Images/Nami_708566497.jpeg" alt="...">
+                                    <div class="category">
+                                        <h4>Hàn Quốc</h4>
+                                    </div>
+                                    <div class="cardBody p-3">
+                                        <h6>Bài viết mới</h6>
+                                        <p class="card-text cardBodyText">
+                                            Quyến rũ mùa thu xứ Kim chi</p>
+                                    </div>
+
+                                </div>
+                            </a>
+                        </div>
+                        <div class="col-md-4">
+                            <a href="">
+                                <div class="cardCustom">
+                                    <img src="Images/Fenghuang-County_621557246.jpeg" alt="...">
+
+                                    <div class="category">
+                                        <h4>Trung Quốc</h4>
+                                    </div>
+                                    <div class="cardBody p-3">
+                                        <h6>Bài viết mới</h6>
+                                        <p class="card-text cardBodyText">
+                                            Bắc Kinh, trái tim của Trung Quốc!</p>
+                                    </div>
+
+                                </div>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="bonusForm mx-3 mt-3">
+            <img src="Images/email.png" style="width: 185px;" alt="">
+            <div class="container-fluid" style="height: 100%;">
+                <div class="row p-3">
+                    <div class="col-sm-6">
+                        <div class="bonusText">
+                            <h2>Nhận ƯU ĐÃI, tin KHUYẾN MÃI</h2>
+                            <p>Tặng ngay MÃ, GIẢM GIÁ mua tour online</p>
+                        </div>
+                    </div>
+                    <div class="col-sm-6">
+                        <form action="" class="d-flex flex-column gap-2">
+                            <label for="">HỌ TÊN</label>
+                            <input type="text" name="ten">
+                            <label for="">EMAIL</label>
+                            <input type="text" name="ten">
+                            <button type="button" class="btn btn-secondary">Đăng kí ngay</button>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="commitment container-lg mt-3">
+            <div class="row">
+                <div class="col-sm-6 col-xl-3">
+                    <div class="commitmentBox p-3 d-flex  align-items-center gap-3 mb-3">
+                        <img src="Images/price.png" style="width: 60px; height: 60px;" alt="">
+                        <div class="commitmentText">
+                            <h4>GIÁ TỐT - NHIỀU ƯU ĐÃI</h4>
+                            <p>Ưu đãi và quà tặng hấp dẫn khi mua tour</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-sm-6 col-xl-3">
+                    <div class="commitmentBox p-3 d-flex  align-items-center gap-3 mb-3">
+                        <img src="Images/pay.png" style="width: 60px; height: 60px;" alt="">
+                        <div class="commitmentText">
+                            <h4>THANH TOÁN AN TOÀN</h4>
+                            <p>Được bảo mật bởi tổ chức quốc tế</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-sm-6 col-xl-3">
+                    <div class="commitmentBox p-3 d-flex  align-items-center gap-3 mb-3">
+                        <img src="Images/promotion.png" style="width: 60px; height: 60px;" alt="">
+                        <div class="commitmentText">
+                            <h4>TƯ VẤN MIỄN PHÍ</h4>
+                            <p>Hỗ trợ tư vẫn online miễn phí</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-sm-6 col-xl-3">
+                    <div class="commitmentBox p-3 d-flex  align-items-center gap-3 mb-3">
+                        <img src="Images/star.png" style="width: 60px; height: 60px;" alt="">
+                        <div class="commitmentText">
+                            <h4>THƯƠNG HIỆU UY TÍN</h4>
+                            <p>Thương hiệu lữ hành hàng đầu Việt Nam</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="container-fluid footer">
+        <div class="row p-3">
+            <div class="col-md-3 d-flex flex-column gap-3 mb-3">
+                <img src="Images/logo.png" alt="">
+                <a href="">Lữ hành Nhantourist, thương hiệu lữ hành hàng đầu Việt Nam</a>
+                <img src="Images/prize.png" style="width: 177px; height: 61px;" alt="">
+                <a>Tổng đài: 1900 1900</a>
+                <a>Email: info@nhantourist.net</a>
+            </div>
+            <div class="col-md-3 d-flex flex-column gap-3 mb-3">
+                <h5>Dịch vụ</h5>
+                <a href="">Tour trong nước</a>
+                <a href="">Tour nước ngoài</a>
+                <a href="">Dịch vụ du lịch</a>
+                <a href="">Vé máy bay</a>
+                <a href="">Thuê xe</a>
+            </div>
+            <div class="col-md-3 d-flex flex-column gap-3 mb-3">
+                <h5>Chăm sóc khách hàng</h5>
+                <a href="">Thẻ khách hàng</a>
+                <a href="">Tải app Nhantourist</a>
+                <a href="">Ý kiến khách hàng</a>
+                <a href="">Phiếu góp ý</a>
+                <a href="">Tra cứu thông tin</a>
+            </div>
+            <div class="col-md-3 d-flex flex-column gap-3 mb-3">
+                <h5>Liên hệ</h5>
+                <a href="">Giới thiệu</a>
+                <a href="">Chi nhánh</a>
+                <a href="">Điều khoản</a>
+                <a href="">Chính sách hủy phạt</a>
+                <a href="">Chính sách chất lượng</a>
+            </div>
+        </div>
+    </div>
+
+</body>
+
+</html>
