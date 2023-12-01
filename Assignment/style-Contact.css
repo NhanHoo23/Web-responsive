@@ -121,6 +121,25 @@ a {
 }
 
 /* Content */
+.content {
+    margin: 15px;
+    display: grid;
+    grid-template-columns: auto;
+    justify-content: space-between;
+    gap: 15px;
+}
+
+.content .media {
+    display: flex;
+    gap: 15px;
+}
+
+.formInput {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
 .content input {
     border: none;
     background: #C2C2C2;
@@ -184,6 +203,10 @@ input {
     }
     .newsTitle {
         top: 245px;
+    }
+    .content {
+        margin: 30px;
+        grid-template-columns: 40% 60%;
     }
 
     .footer img {
